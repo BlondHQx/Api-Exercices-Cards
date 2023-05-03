@@ -1,0 +1,96 @@
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+body {
+    background: url(https://www.hackthebox.com/images/landingv3/home/bg-hero.svg);
+    background-color: hsl(0, 0%, 25%);
+}
+#users{
+    margin: 0;
+    display: flex;
+}
+
+#search_bar {
+    border: 1px solid #aeaeae;
+    background: #ffffff00;
+    color: white;
+}
+
+#search_bar:hover {
+    background-color: #55ff0000;
+    color: white;
+}
+
+.button_search {
+    border: 1px solid #aeaeae;
+}
+
+.card-container {
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.user_card {
+    padding: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff33;
+    border-radius: 5px;
+    border: 2px solid #9b9b9b;
+}
+
+section {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+span {
+    text-align: center;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn+.btn {
+    margin-left: 10px;
+}
+
+.outline {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(74, 125, 255, 0.6);
+    transition: all .3s ease;
+
+}
+
+.outline:hover {
+    transform: scale(1.125);
+    color: rgba(255, 255, 255, 0.9);
+    border-color: rgba(0, 0, 0, 0.9);
+    transition: all .3s ease;
+}
+
+.fill {
+    background: rgba(97, 147, 255, 0.534);
+    color: rgba(255, 255, 255, 0.95);
+    filter: drop-shadow(0);
+    border: 1px solid rgb(255, 255, 255);
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+.fill:hover {
+    transform: scale(1.125);
+    border-color: rgba(255, 255, 255, 0.9);
+    filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.125));
+    transition: all .3s ease;
+}
